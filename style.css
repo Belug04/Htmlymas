@@ -6,62 +6,69 @@
     color: red;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-#destacado{
-    background-color: cadetblue;
+#destacado2{
+    background-color: rgb(21, 186, 252);
 }
-div{
-    width: 400px;
-    height: 150px;
-    background-color: aquamarine;
-    border: 4px dotted;
-    padding: 48px;
-    margin: 50px;
-    display: inline-table;
-    text-align: center;
-    border-color: blue;
+#destacado3{
+    background-color: rgb(21, 186, 252);
+}
 
+/*Estilo de pagina de horarios.html*/
+
+tr{
+    background-color: aquamarine;
 }
-div p{
-    display: table-cell;
-    vertical-align: middle;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 32px;
-    text-transform: uppercase;
-    color: blueviolet;
+.Martes, .Miercoles, .Jueves{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.Martes{
+    
+ background-color: blueviolet;
     
 }
 
-.azul{
-    background-color: blue;
+.Miercoles{
+    background-color: rgb(173, 117, 226);
 }
 
-.rojo{
-    background-color: red;
+.Jueves{
+    background-color: rgb(109, 9, 202);
+}
+.ho1{
+    font-style: italic;
 }
 
-.verde{
-    background-color: green;
+.Dias, .Martes, .Miercoles, .Jueves{
+    text-align: center;
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    background-color: aquamarine;
+}
+header{
+    background-color: crimson;
+    height: 100%;
+    max-height: fit-content;
+}
+.li{
+    color: beige;
+    list-style: none;
+}
+footer{
+    background-color: rgb(21, 186, 252);
+    height: 100%;
+    max-height: max-content;
+    text-align: center;
+}
+div{
+   border-bottom: 1px;
+   border-style:dashed ;
+   border-color: rgb(10, 179, 122);
+  text-align: center;
 }
 
-.gris{
-    background-color: gray;
-}
 
-.gris, .rojo, .verde{
-position: absolute;
-}
-
-.gris{
-    z-index: 2;
-}
-
-.verde{
-    z-index: 3;
-}
-
-.azul{
-    z-index: 100;
-}
-
-
-/*Estilo de pagina de horarios.html*/
