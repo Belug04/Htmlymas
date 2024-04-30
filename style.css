@@ -36,6 +36,7 @@ tr{
 .Jueves{
     background-color: rgb(109, 9, 202);
 }
+
 .ho1{
     font-style: italic;
 }
@@ -43,32 +44,45 @@ tr{
 .Dias, .Martes, .Miercoles, .Jueves{
     text-align: center;
 }
+
 h4{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     font-style: italic;
     background-color: aquamarine;
 }
-header{
-    background-color: crimson;
-    height: 100%;
-    max-height: fit-content;
-}
-.li{
-    color: beige;
-    list-style: none;
-}
+/* Estilo de la pagina contactos.html */
 footer{
     background-color: rgb(21, 186, 252);
     height: 100%;
     max-height: max-content;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
+
 div{
-   border-bottom: 1px;
+   border-bottom: 0px;
    border-style:dashed ;
    border-color: rgb(10, 179, 122);
-  text-align: center;
+   text-align: center;
 }
 
+/* Encabezado */
+header{
+    background-color: crimson;
+    height: 100%;
+    max-height: fit-content;
+}
 
+.li{
+    color: beige;
+    
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
