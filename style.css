@@ -51,6 +51,7 @@ h4{
     font-style: italic;
     background-color: aquamarine;
 }
+
 /* Estilo de la pagina contactos.html */
 footer{
     background-color: rgb(21, 186, 252);
@@ -60,6 +61,10 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 2.5rem;
 }
 
 div{
@@ -67,7 +72,7 @@ div{
    border-style:dashed ;
    border-color: rgb(10, 179, 122);
    text-align: center;
-}
+} 
 
 /* Encabezado */
 header{
@@ -85,4 +90,35 @@ ul{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.Contenedor{
+    display: grid;
+    grid-template-columns: 300px 1fr 300px;
+} 
+
+/* Estilos de media queris*/
+
+.contenedor1 {
+    display: flex;
+    background-color: aquamarine;
+    flex-wrap: wrap;
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 576px)  {
+    .contenedor1{
+        width: 100px;
+        padding-left: 23px;
+        flex-direction: column-reverse;
+        background-color: blueviolet;
+    }
+
+    .cajas{
+        width: 100%;
+       
+    }
+    
 }
