@@ -1,5 +1,5 @@
-let nombre = "pedro";
-let apellido = 30;
+let nombre = "Belen";
+let apellido = "Gabrielli";
 console.log(nombre + " " + apellido);
 let num1 = 120;
 let num2 = 20;
