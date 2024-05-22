@@ -32,47 +32,90 @@
 //         console.log(nombres[i]);
 //     }
 
-let topping = "Oreo";
-let precio = 0;
-let preciofinal= 0;
-let helado = 200;
+// let topping = "Oreo";
+// let precio = 0;
+// let preciofinal= 0;
+// let helado = 200;
 
-if(topping == "Oreo")
-    {
-        precio = 10;
-    } else if(topping == "KitKat")
-        {
-            precio = 15;
-        }else if(topping == "Kinder")
-            {
-                precio = 25;
-            }else{
-                console.log("No tenemos este topping.");
-            }
+// if(topping == "Oreo")
+//     {
+//         precio = 10;
+//     } else if(topping == "KitKat")
+//         {
+//             precio = 15;
+//         }else if(topping == "Kinder")
+//             {
+//                 precio = 25;
+//             }else{
+//                 console.log("No tenemos este topping.");
+//             }
 
-preciofinal = helado + precio;
-console.log("El helado cuesta $ " + preciofinal);
+// preciofinal = helado + precio;
+// console.log("El helado cuesta $ " + preciofinal);
 
-let menu= "Carne";
-switch(menu)
-{
-    case "Carne":
-        console.log("Se ofrece como bebida vino.");
-        break;
-    case "Pescado":
-        console.log("Se le ofrece como bebida vino blanco.");
-        break;
-    case "Verdura":
-        console.log("Se le ofrece como bebida agua.");
-        break;
-    default:
-        console.log("Elija Carne, Pescado o Verdura.");
-        break;
-}
+// let menu= "Carne";
+// switch(menu)
+// {
+//     case "Carne":
+//         console.log("Se ofrece como bebida vino.");
+//         break;
+//     case "Pescado":
+//         console.log("Se le ofrece como bebida vino blanco.");
+//         break;
+//     case "Verdura":
+//         console.log("Se le ofrece como bebida agua.");
+//         break;
+//     default:
+//         console.log("Elija Carne, Pescado o Verdura.");
+//         break;
+// }
 
-let animales= ["Perros", "Gatos", "Conejos", "Cobayos"];
-animales.push("Tortuga");
-for(let i = 0; i<animales.length; i++)
-    {
-        console.log(animales[i]);
+// let animales= ["Perros", "Gatos", "Conejos", "Cobayos"];
+// animales.push("Tortuga");
+// for(let i = 0; i<animales.length; i++)
+//     {
+//         console.log(animales[i]);
+//     }
+ 
+// let numero = 1;
+// let suma = 0;
+
+// while(numero <= 10){
+//     suma += numero;
+//     numero ++;
+// }
+// console.log("La suma del 1 al 10 es: " + suma);
+
+// let resultado= 0;
+// let numero1=3;
+// let numero2=5;
+
+// function sumanum(){
+//     resultado= numero1 + numero2;
+//     alert("El resultado es: " + resultado);
+// }
+// sumanum();
+
+// let n= prompt("Introduce un numero entero: ");
+
+// let result= parimpar(n);
+// alert("El numero " + n + "es: " + result);
+
+// function parimpar(n){
+//     if(n %2 == 0){
+//         return "Par";
+//     }else{
+//         return "Impar";
+//     }
+// }
+
+let Nombre= prompt("Ingrese su nombre: ");
+
+function saludo(){
+    if(Nombre){
+        alert("Bienvenido " + Nombre);
+    }else{
+        alert("Debe ingresar un nombre.");
     }
+}
+saludo();
