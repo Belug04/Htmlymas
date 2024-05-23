@@ -77,14 +77,13 @@
 //         console.log(animales[i]);
 //     }
  
-// let numero = 1;
-// let suma = 0;
+// let numero2 = 3;
 
-// while(numero <= 10){
-//     suma += numero;
-//     numero ++;
+
+// while(numero2 < 11){
+//     numero2 ++;
 // }
-// console.log("La suma del 1 al 10 es: " + suma);
+// console.log("El numero es menor que 11 ");
 
 // let resultado= 0;
 // let numero1=3;
@@ -109,13 +108,13 @@
 //     }
 // }
 
-let Nombre= prompt("Ingrese su nombre: ");
+// let Nombre= prompt("Ingrese su nombre: ");
 
-function saludo(){
-    if(Nombre){
-        alert("Bienvenido " + Nombre);
-    }else{
-        alert("Debe ingresar un nombre.");
-    }
-}
-saludo();
+// function saludo(){
+//     if(Nombre){
+//         alert("Bienvenido " + Nombre);
+//     }else{
+//         alert("Debe ingresar un nombre.");
+//     }
+// }
+// saludo();
